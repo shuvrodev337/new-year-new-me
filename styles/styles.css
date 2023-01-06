@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* banner section styles */
+
+.banner {
+  background-image: url("../images/banner/banner3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-content {
+  padding: 124px 160px 166px 704px;
+  text-align: right;
+}
+
+.section-title {
+  color: white;
+  font-weight: 2000;
+  font-size: 65px;
+}
+.sectiion-description {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
