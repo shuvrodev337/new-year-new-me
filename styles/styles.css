@@ -85,3 +85,47 @@ h2 {
 .my-plan-title{
   padding-top: 20px;
 }
+
+/* Positive mindset styles */
+
+.mindset-container{
+  margin: 100px 178px;
+}
+.mindset-content{
+  padding: 36px 27px;
+}
+.mindset-section button{
+  /* font-style: normal; */
+  font-weight: 700;
+  font-size: 22px;
+  height: 64px;
+  border: 0;
+  padding: 18px 35px;
+  margin-top: 32px;
+  /* height: 64px; */
+  /* border-radius: 5px; */
+}
+
+/* ending section styles */
+
+footer {
+  background-color: black;
+}
+.ending{
+  /* display: flex;
+  gap: 30px; */
+  padding: 0px 97px;
+
+ 
+}
+
+.ending-contents-container{
+  display: flex;
+  gap: 325px;
+  color: white;
+  padding: 62px 105px;
+}
+ .ending-content {
+  color: white;
+
+} 
