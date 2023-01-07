@@ -2,6 +2,20 @@
   margin: 0;
   font-family: "Work Sans", sans-serif;
 }
+h2 {
+    font-weight: 900;
+    font-size: 40px;
+}
+.btn-primary {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    height: 64px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+  }
 
 /* banner section styles */
 
@@ -18,7 +32,7 @@
 
 .section-title {
   color: white;
-  font-weight: 2000;
+  font-weight: 900;
   font-size: 65px;
 }
 .sectiion-description {
@@ -28,4 +42,25 @@
 
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+/* failure section styles */
+.failure-container {
+  display: flex;
+  gap: 40px;
+  padding: 0px 151px 0px;
+}
+
+.failure-content {
+  margin: auto;
+}
+
+.failure-content p{
+    font-size: 18px;
+    color: #757575;
+    margin-top: 26px;
+    margin-bottom: 17px;
+}
+.failure-content ul{
+    color: #757575;
 }
