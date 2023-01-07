@@ -116,8 +116,26 @@ h2 {
 }
 
 
+.activities-section{
+  text-align: center;
+}
+.activities{
+  text-align: center;
+  
+}
+.cycling-img{
+  width: 25%;
 
 
+}
+.running-img{
+
+  height :25%;
+}
+.activities-row{
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
 
 
 
@@ -128,8 +146,6 @@ footer {
   background-color: black;
 }
 .ending{
-  /* display: flex;
-  gap: 30px; */
   padding: 0px 97px;
 
  
