@@ -68,6 +68,13 @@ h2 {
   color: #757575;
   font-weight: 400;
 }
+.failure-content ul li{
+  list-style: none;
+}
+
+
+
+
 
 
 /* my plans styles */
@@ -76,7 +83,6 @@ h2 {
   text-align: center;
 }
 .my-plans-container{
-  /* margin-top: 55px; */
   margin: 55px 112px;
   display: flex;
   gap: 24px;
@@ -84,6 +90,10 @@ h2 {
 .my-plan-title{
   padding-top: 20px;
 }
+
+
+
+
 
 /* Positive mindset styles */
 
@@ -96,7 +106,6 @@ h2 {
   background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(27, 98, 180));
 }
 .mindset-section button{
-  /* font-style: normal; */
   font-weight: 700;
   font-size: 22px;
   height: 64px;
@@ -104,8 +113,6 @@ h2 {
   padding: 18px 35px;
   margin-top: 32px;
   border-radius: 8px;
-  /* height: 64px; */
-  /* border-radius: 5px; */
 }
 
 
@@ -140,7 +147,10 @@ footer {
 
 } 
 .ending p{
-  padding: 10px 0px;
+  padding: 20px 0px;
+}
+.ending img{
+  padding: 5px;
 }
 .ending form{
  margin: 33px 0px;
@@ -150,7 +160,8 @@ footer {
 height: 64px;
 border-radius: 8px;
 border: none;
-font-size: 16px;
+font-size: 18px;
+padding-left: 18px;
 }
 .ending .btn-primary{
   margin-top: 33px;
