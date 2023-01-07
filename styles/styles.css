@@ -3,19 +3,20 @@
   font-family: "Work Sans", sans-serif;
 }
 h2 {
-    font-weight: 900;
-    font-size: 40px;
+  font-weight: 900;
+  font-size: 40px;
+  font-family: "Work Sans", sans-serif;
 }
 .btn-primary {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    height: 64px;
-    border: 0;
-    padding: 18px 35px;
-    height: 64px;
-    border-radius: 5px;
-  }
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  height: 64px;
+  border: 0;
+  padding: 18px 35px;
+  height: 64px;
+  border-radius: 5px;
+}
 
 /* banner section styles */
 
@@ -31,8 +32,9 @@ h2 {
 }
 
 .section-title {
+  font-family: "Work Sans", sans-serif;
   color: white;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 65px;
 }
 .sectiion-description {
@@ -55,12 +57,31 @@ h2 {
   margin: auto;
 }
 
-.failure-content p{
-    font-size: 18px;
-    color: #757575;
-    margin-top: 26px;
-    margin-bottom: 17px;
+.failure-content p {
+  font-size: 18px;
+
+  font-weight: 400;
+  color: #757575;
+  margin-top: 26px;
+  margin-bottom: 17px;
 }
-.failure-content ul{
-    color: #757575;
+.failure-content ul {
+  color: #757575;
+  font-weight: 400;
+}
+
+
+/* my plans styles */
+.my-plans{
+  margin: 65px;
+  text-align: center;
+}
+.my-plans-container{
+  /* margin-top: 55px; */
+  margin: 55px 112px;
+  display: flex;
+  gap: 24px;
+}
+.my-plan-title{
+  padding-top: 20px;
 }
